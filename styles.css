@@ -96,4 +96,36 @@ h5 {
   bottom: 0;
   font-size: 2em;
   justify-content: right;
+  color: black;
+}
+
+#noah {
+  color:black;
+  text-decoration: none;
+}
+
+#noah:hover {
+  background-color: black;
+  color: white;
+}
+
+#noah::after {
+  color:black;
+  text-decoration: none;
+}
+
+#ig {
+  
+  color:black;
+  text-decoration: none;
+}
+
+#ig:hover {
+  background-color: black;
+  color: white;
+}
+
+#ig::after {
+  color:black;
+  text-decoration: none;
 }
