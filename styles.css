@@ -92,3 +92,8 @@ button {
   padding-right: 3px;
 }
 
+h5 {
+  bottom: 0;
+  font-size: 2em;
+  justify-content: right;
+}
