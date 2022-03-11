@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: crosshair;
+  user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+:root {
+  --backgroundcolor: yellow;
+  --secondbgcolor: orangered;
+  --textcolor: white;
+  --text1color: royalblue;
+}
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.one {
+  background-color: var(--backgroundcolor);
+  color: var(--text1color);
+  animation-name: blend;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes blend {
+  from {background-color: var(--backgroundcolor);}
+  to {background-color: var(--text1color);}
+  from {color: var(--text1color);}
+  to {color: var(--backgroundcolor);}
+}
+
+.two {
+  background-color: var(--secondbgcolor);
+  color: orange;
+  position: relative;
+  animation-name: blendorg;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes blendorg {
+  from {color: orange;}
+  to {color: var(--secondbgcolor);}
+}
+
+.three {
+  background-color: var(--text1color);
+  color: white;
+  }
+h3 {
+  transition: width 5s, height 5s, transform 5s;
+}
+h3:hover {
+  font-size: 70px;
+  transform: rotate(360deg);
+}
+
+.four {
+  position: relative;
+  background-color: var(--textcolor);
+  justify-content: center;
+}
+button {
+  background-color: black;
+  color: var(--textcolor);
+  border-color: black;
+  padding-left: 5px;
+  padding-right: 3px;
+}
+
