@@ -77,12 +77,12 @@ h3:hover {
 }
 
 .four {
-  font-size: 50px;
   position: relative;
   background-color: var(--textcolor);
   justify-content: center;
 }
 button {
+  font-size: 50px;
   background-color: black;
   color: var(--textcolor);
   border-color: black;
