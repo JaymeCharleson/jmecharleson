@@ -11,6 +11,18 @@
   width: 0px;
 }
 
+html {
+  overflow: hidden;
+  width: 100%;
+}
+
+body {
+  position: fixed;
+  overflow-y: scroll;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
 :root {
   --backgroundcolor: yellow;
   --secondbgcolor: orangered;
