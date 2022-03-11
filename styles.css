@@ -32,6 +32,7 @@ section {
 }
 
 .one {
+  font-size: 50px;
   background-color: var(--backgroundcolor);
   color: var(--text1color);
   animation-name: blend;
@@ -47,6 +48,7 @@ section {
 }
 
 .two {
+  font-size: 50px;
   background-color: var(--secondbgcolor);
   color: orange;
   position: relative;
@@ -62,6 +64,7 @@ section {
 }
 
 .three {
+  font-size: 50px;
   background-color: var(--text1color);
   color: white;
   }
@@ -74,6 +77,7 @@ h3:hover {
 }
 
 .four {
+  font-size: 50px;
   position: relative;
   background-color: var(--textcolor);
   justify-content: center;
