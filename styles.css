@@ -18,7 +18,6 @@
   --text1color: royalblue;
 }
 
-@import "compass/css3";
 
 section {
   height: 100vh;
