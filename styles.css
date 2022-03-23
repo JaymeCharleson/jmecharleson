@@ -83,7 +83,7 @@ h3:hover {
   background-color: var(--textcolor);
   justify-content: center;
 }
-button {
+h4 {
   font-size: 50px;
   background-color: black;
   color: var(--textcolor);
